@@ -1,0 +1,143 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#Header{
+    margin-top: 1.5rem;
+    position: relative;
+    a{
+        text-decoration: none;
+    }
+}
+
+#Header2{
+    background-image:url(https://preview.colorlib.com/theme/universityedu/assets/img/hero/xh1_hero1.jpg.pagespeed.ic.nogT7L3zFj.webp);
+    background-position: center;
+    background-size: cover;
+    padding: 18rem 0;
+    span{
+        font-size: 24px;
+        color: #fff;
+    }
+    h1{
+        font-size: 54px;
+        color: #fff;
+    }
+    p{
+        font-size: 20px;
+        color: #fff;
+    }
+    a{
+        background-color: #007a5c;
+        text-decoration: none;
+        color: #fff;
+        padding: 20px 36px;
+    }
+}
+
+#Bio{
+    background-color: #fcf2eb;
+    padding: 8rem 0;
+    .right{
+        width: 50%;
+        h2{
+        color: #32404d;
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 30px;
+        }
+        p{
+        font-size: 18px;
+        color: #777777;
+        margin-bottom:30px;
+        }
+        a{
+        color: #007a5c;
+        font-size: 16px;
+        }
+    }
+}
+
+#Programs{
+    .top{
+        h2{
+            color: #32404d;
+            font-size: 40px;
+            margin-bottom: 40px;
+            font-weight: bold;
+        }
+        p{
+            font-size: 18px;
+            color: #777777;
+            margin-bottom: 30px;
+        }
+    }
+    .bottom{
+        .box{
+            border: 1px solid rgb(133, 199, 133);
+            overflow: hidden;
+            &:hover{
+                .a1{
+                    color: #007a5c;
+                }
+                img{
+                    transform: scale(1.05);
+                }
+            }
+            img{
+                transition: 0.4s;
+            }
+            .a1{
+                display: block;
+                color: #32404d;
+                font-size: 26px;
+                text-decoration: none;
+                margin-bottom: 5px;
+                transition: 0.4s;
+            }
+            p{
+                color: #5d646a;
+                font-size: 16px;
+                margin-bottom: 15px;
+            }
+            .a2{
+                color: #007a5c;
+                font-size: 16px;
+                transition: 0.4s;
+                &:hover{
+                    letter-spacing: 2px;
+                }
+            }
+        }
+    }
+}
+
+#Stories{
+    margin-top: 5rem;
+    .top{
+        h2{
+            font-size: 40px;
+            color: #32404d;
+            font-weight: bold;
+        }
+        a{
+            font-size: 16px;
+            color: #007a5c;
+            &:hover{
+                letter-spacing: 2px;
+            }
+        }
+    }
+
+    .bottom{
+        .box{
+            h3{
+                margin-top: 25px;
+                width: 70%;
+                font-weight: lighter;
+            }
+        }
+    }
+}

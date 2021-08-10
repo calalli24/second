@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#Header {
+  margin-top: 1.5rem;
+  position: relative;
+}
+
+#Header a {
+  text-decoration: none;
+}
+
+#Header2 {
+  background-image: url(https://preview.colorlib.com/theme/universityedu/assets/img/hero/xh1_hero1.jpg.pagespeed.ic.nogT7L3zFj.webp);
+  background-position: center;
+  background-size: cover;
+  padding: 18rem 0;
+}
+
+#Header2 span {
+  font-size: 24px;
+  color: #fff;
+}
+
+#Header2 h1 {
+  font-size: 54px;
+  color: #fff;
+}
+
+#Header2 p {
+  font-size: 20px;
+  color: #fff;
+}
+
+#Header2 a {
+  background-color: #007a5c;
+  text-decoration: none;
+  color: #fff;
+  padding: 20px 36px;
+}
+
+#Bio {
+  background-color: #fcf2eb;
+  padding: 8rem 0;
+}
+
+#Bio .right {
+  width: 50%;
+}
+
+#Bio .right h2 {
+  color: #32404d;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+#Bio .right p {
+  font-size: 18px;
+  color: #777777;
+  margin-bottom: 30px;
+}
+
+#Bio .right a {
+  color: #007a5c;
+  font-size: 16px;
+}
+
+#Programs .top h2 {
+  color: #32404d;
+  font-size: 40px;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+#Programs .top p {
+  font-size: 18px;
+  color: #777777;
+  margin-bottom: 30px;
+}
+
+#Programs .bottom .box {
+  border: 1px solid #85c785;
+  overflow: hidden;
+}
+
+#Programs .bottom .box:hover .a1 {
+  color: #007a5c;
+}
+
+#Programs .bottom .box:hover img {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+#Programs .bottom .box img {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+#Programs .bottom .box .a1 {
+  display: block;
+  color: #32404d;
+  font-size: 26px;
+  text-decoration: none;
+  margin-bottom: 5px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+#Programs .bottom .box p {
+  color: #5d646a;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+#Programs .bottom .box .a2 {
+  color: #007a5c;
+  font-size: 16px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+#Programs .bottom .box .a2:hover {
+  letter-spacing: 2px;
+}
+
+#Stories {
+  margin-top: 5rem;
+}
+
+#Stories .top h2 {
+  font-size: 40px;
+  color: #32404d;
+  font-weight: bold;
+}
+
+#Stories .top a {
+  font-size: 16px;
+  color: #007a5c;
+}
+
+#Stories .top a:hover {
+  letter-spacing: 2px;
+}
+
+#Stories .bottom .box h3 {
+  margin-top: 25px;
+  width: 70%;
+  font-weight: lighter;
+}
+/*# sourceMappingURL=style.css.map */
